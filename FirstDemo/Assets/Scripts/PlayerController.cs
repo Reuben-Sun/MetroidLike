@@ -6,7 +6,7 @@ using UnityEngine.Animations.Rigging;
 using UnityEngine.InputSystem;
 using UnityEngine.Playables;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     private PlayerInput input;
     private CharacterController controller;

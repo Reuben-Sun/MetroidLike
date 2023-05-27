@@ -4,6 +4,8 @@ using BehaviorDesigner.Runtime.Tasks;
 using DG.Tweening;
 using UnityEngine;
 
+
+// 敌人会朝向角色跳跃
 public class EnemyJump : EnemyAction
 {
     public float horizontalForce = 5.0f;
@@ -17,7 +19,7 @@ public class EnemyJump : EnemyAction
     private bool hasLanded; // 是否已经着地
     private Tween buildupTween;
     private Tween jumpTween;
-
+    
     public override void OnStart()
     {
         buildupTween = DOVirtual.DelayedCall(buildupTime, StartJump, false);
@@ -38,7 +40,7 @@ public class EnemyJump : EnemyAction
 
     private void StartJump()
     {
-        var direction = controller.transform.position.x < transform.position.x ? -1 : 1;
+        float direction = PlayerInfo.Instance.PlayerPosition.x - transform.position.x > 0 ? 1 : -1;
         body.AddForce(new Vector3(horizontalForce * direction, jumpForce, 0), ForceMode.Impulse);
         jumpTween = DOVirtual.DelayedCall(jumpTime, () => hasLanded = true, false);
     }
