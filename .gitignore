@@ -26,3 +26,5 @@ FirstDemo/Assembly-CSharp-firstpass.csproj
 FirstDemo/Assembly-CSharp-Editor.csproj
 
 FirstDemo/Assembly-CSharp-Editor-firstpass.csproj
+
+FirstDemo/Fern.RenderPipelines.Universal.PostProcessing.Runtime.csproj

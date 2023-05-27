@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.jasonma.lwgui": "file:C:/Users/Reuben/Downloads/LWGUI-1.5.3",
     "com.unity.animation.rigging": "1.1.1",
     "com.unity.cinemachine": "2.8.9",
     "com.unity.collab-proxy": "2.0.1",

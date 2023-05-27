@@ -41,16 +41,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="C:\Users\Reuben\Downloads\LWGUI-1.5.3\Editor\ShaderDrawer.cs" />
-     <Compile Include="C:\Users\Reuben\Downloads\LWGUI-1.5.3\Editor\DrawerUtility.cs" />
-     <Compile Include="C:\Users\Reuben\Downloads\LWGUI-1.5.3\Editor\ShaderPropertyPreset.cs" />
-     <Folder Include="C:\Users\Reuben\Downloads\LWGUI-1.5.3\Editor\Icon" />
-     <None Include="C:\Users\Reuben\Downloads\LWGUI-1.5.3\Editor\Test\KeywordTestShader.shader" />
-     <Folder Include="C:\Users\Reuben\Downloads\LWGUI-1.5.3\Editor\Test" />
-     <Folder Include="C:\Users\Reuben\Downloads\LWGUI-1.5.3\Editor" />
-     <None Include="C:\Users\Reuben\Downloads\LWGUI-1.5.3\Editor\Test\SampleDrawer 1.shader" />
-     <None Include="C:\Users\Reuben\Downloads\LWGUI-1.5.3\Editor\Test\SampleDrawer.shader" />
-     <None Include="C:\Users\Reuben\Downloads\LWGUI-1.5.3\Editor\LWGUI.asmdef" />
+     <Compile Include="Assets\Plugins\LWGUI@0.1.0\Editor\ShaderDrawer.cs" />
+     <Compile Include="Assets\Plugins\LWGUI@0.1.0\Editor\DrawerUtility.cs" />
+     <Folder Include="Assets\Plugins\LWGUI@0.1.0\Editor\Icon" />
+     <None Include="Assets\Plugins\LWGUI@0.1.0\Editor\Test\KeywordTestShader.shader" />
+     <Folder Include="Assets\Plugins\LWGUI@0.1.0\Editor\Test" />
+     <Folder Include="Assets\Plugins\LWGUI@0.1.0\Editor" />
+     <None Include="Assets\Plugins\LWGUI@0.1.0\Editor\Test\SampleDrawer 1.shader" />
+     <None Include="Assets\Plugins\LWGUI@0.1.0\Editor\Test\SampleDrawer.shader" />
+     <None Include="Assets\Plugins\LWGUI@0.1.0\Editor\LWGUI.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.22f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
